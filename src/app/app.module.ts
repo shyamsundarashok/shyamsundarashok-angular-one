@@ -6,6 +6,7 @@ import { ShyamsundarashokHelloWorldBindingsComponent } from './shyamsundarashok-
 import { ShyamsundarashokHelloWorldInterpolationComponent } from './shyamsundarashok-hello-world-interpolation/shyamsundarashok-hello-world-interpolation.component';
 import { ShyamsundarashokHelloWorldNgifComponent } from './shyamsundarashok-hello-world-ngif/shyamsundarashok-hello-world-ngif.component';
 import { ShyamsundarashokHelloWorldComponent } from './shyamsundarashok-hello-world/shyamsundarashok-hello-world.component';
+import { ShyamsundarashokHelloWorldDependencyInjectionComponent } from './shyamsundarashok-hello-world-dependency-injection/shyamsundarashok-hello-world-dependency-injection.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ShyamsundarashokHelloWorldComponent } from './shyamsundarashok-hello-wo
     ShyamsundarashokHelloWorldComponent,
     ShyamsundarashokHelloWorldInterpolationComponent,
     ShyamsundarashokHelloWorldBindingsComponent,
-    ShyamsundarashokHelloWorldNgifComponent
+    ShyamsundarashokHelloWorldNgifComponent,
+    ShyamsundarashokHelloWorldDependencyInjectionComponent
   ],
   imports: [
     BrowserModule
